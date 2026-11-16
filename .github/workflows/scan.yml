@@ -1,8 +1,8 @@
-name: Strategic Copilot Daily Scan
+name: Strategic Copilot Weekly Scan
 
 on:
   schedule:
-    - cron: '23 11 * * 1-5'  # 11:23 AM UTC (7:23 AM Eastern), Monday–Friday
+    - cron: '23 11 * * 1'  # 11:23 AM UTC (7:23 AM Eastern), Mondays
   workflow_dispatch:
     inputs:
       lookback_days:
